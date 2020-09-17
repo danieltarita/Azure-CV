@@ -1,6 +1,8 @@
 # azure-CV
 Tests using Azure Custom Vision service
 
+StackOverflow issue [link][5] 
+
 ## Project info
 requirements.txt for environment setup.
 
@@ -62,3 +64,4 @@ print("Predictions[0]", predictions[0]['boundingBox']['left'])
   [1]: https://i.stack.imgur.com/2Rk0t.jpg
   [2]: https://i.stack.imgur.com/nHwqT.png
   [3]: https://i.stack.imgur.com/126BX.jpg
+  [5]: https://stackoverflow.com/questions/63923547/model-predictions-offline-different-from-custom-vision-portal-quick-test
