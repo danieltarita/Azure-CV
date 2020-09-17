@@ -7,6 +7,7 @@ I trained a model of Object Detection using Azure Custom Vision and the predicti
 **Domains:** 'General (compact)'
 
 **Export Capabilities:** 'Basic platforms (Tensorflow, CoreML, ONNX, ...)'
+
 Exported for 'TensorFlow'
 
 ### Original Image
