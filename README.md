@@ -6,7 +6,7 @@ requirements.txt for environment setup.
 
 script usage:
 
-python predict.py <Image Path>
+python predict.py < Image Path >
 
 Outputs the predicted image to ./predictions folder
 
