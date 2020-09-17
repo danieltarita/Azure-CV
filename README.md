@@ -7,7 +7,7 @@ I trained a model of Object Detection using Azure Custom Vision and the predicti
 **Domains:** 'General (compact)'
 
 **Export Capabilities:** 'Basic platforms (Tensorflow, CoreML, ONNX, ...)'
-
+Exported for 'TensorFlow'
 
 ### Original Image
 
@@ -44,8 +44,6 @@ print("Predictions[0]", predictions[0]['boundingBox']['left'])
 
     cv2.imwrite("Predicted-img.jpg", image_cv)
 ```
-Can someone help me find what went wrong? I can provide the 'model.pb' file and the sample codes provided if needed. I'm not sure if I messed up the export settings or other little detail.
-
 
   [1]: https://i.stack.imgur.com/2Rk0t.jpg
   [2]: https://i.stack.imgur.com/nHwqT.png
