@@ -10,6 +10,8 @@ python predict.py < Image Path >
 
 Outputs the the input image with the predictions identified with black boxes to ./predictions folder
 
+To select the model used just change the MODEL_FILENAME in predict.py file
+
 ### Problem Description
 
 I trained a model of Object Detection using Azure Custom Vision and the predictions done using 'quick test' in the portal are different from the ones obtained offline (with the sample code provided).
