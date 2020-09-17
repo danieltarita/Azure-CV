@@ -8,7 +8,7 @@ script usage:
 
 python predict.py < Image Path >
 
-Outputs the predicted image to ./predictions folder
+Outputs the the input image with the predictions identified with black boxes to ./predictions folder
 
 ### Problem Description
 
