@@ -1,6 +1,15 @@
 # azure-CV
 Tests using Azure Custom Vision service
 
+## usage
+requirements.txt for environment setup.
+script:
+python predict.py <Image Path>
+
+Outputs the predicted image to ./predictions folder
+
+### Problem Description
+
 I trained a model of Object Detection using Azure Custom Vision and the predictions done using 'quick test' in the portal are different from the ones obtained offline (with the sample code provided).
 
 ### Project info
