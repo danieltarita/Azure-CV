@@ -1,9 +1,11 @@
 # azure-CV
 Tests using Azure Custom Vision service
 
-## usage
+## Project info
 requirements.txt for environment setup.
-script:
+
+script usage:
+
 python predict.py <Image Path>
 
 Outputs the predicted image to ./predictions folder
